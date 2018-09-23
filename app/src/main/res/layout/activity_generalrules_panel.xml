@@ -4,6 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/migseven"
     tools:context=".generalrules_panel">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="131dp"
+        android:layout_height="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview8"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:text="GENERAL RULES"
+        android:textColor="#1a0f69"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="128dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview9"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:text="1. House will be allocated as per seniority.
+2. Married Officers will get priority.
+3. Officers having children will get priority.
+4. According to points card, house will be
+allocated.
+5. After requesting once, till next 6 month
+Officer will not be capable of apply again."
+        android:textColor="#ca0505"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="184dp" />
 
 </android.support.constraint.ConstraintLayout>
